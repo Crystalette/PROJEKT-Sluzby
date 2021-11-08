@@ -212,6 +212,7 @@ h2 {
 
     .travelerimg {
         max-width: 425px;
+        margin-bottom: 80px;
     }
 
     .topleft p {
@@ -219,6 +220,41 @@ h2 {
         margin-bottom: 30px;
     }
 
+    .cont {
+        display: flex;
+        align-items: center;
+    }
   
+    .middle {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+
+    .cont h2,
+    p {
+        text-align: left;
+    }
+
+    .mid {
+        margin-left: 60px;
+    }
+
+    .bot p {
+        margin-right: 60px;
+    }
+
+    .box {
+        margin-bottom: 0;
+        width: 170px;
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
+    .middle {
+        margin-bottom: 80px;
+    }
 
 }
