@@ -14,7 +14,6 @@ hr {
 }
 
 .container {
-    border: 1px solid #407BFF;
     margin: auto;
     max-width: 500px;
     padding: 60px 20px;
@@ -204,6 +203,7 @@ h2 {
     .anotherdiv {
         display: flex;
         flex-direction: row-reverse;
+        align-items: center;
     }
 
     p {
@@ -255,6 +255,10 @@ h2 {
 
     .middle {
         margin-bottom: 80px;
+    }
+
+    hr {
+        margin-left: 0;
     }
 
 }
